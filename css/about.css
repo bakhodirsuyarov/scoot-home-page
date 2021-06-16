@@ -1,0 +1,155 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Mono', monospace;
+  overflow-x: hidden;
+
+}
+
+
+.container{
+  width: 1110px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.header{
+  background: #FFFFFF;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.header-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.header-lists{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-img{
+  margin-right: 58px;
+}
+
+.header-links{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header-link{
+  text-decoration: none;
+  margin-right: 32px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+
+.header-scoot{
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FCB72B;
+  padding: 14px 39px ;
+}
+
+
+.main-hero{
+  position: relative;
+  z-index: 1;
+  background-image: url(../img/about/about-hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: calc( 50% - 22px);
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.hero-content{
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+}
+
+
+.main-hero::after{
+  position: absolute;
+  z-index: 1;
+  top:0;
+  right: 0;
+  content: "";
+  background-image: url(../img/about/header.circle.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - -107px)102px;
+  width: 375px;
+  height: 179px;
+}
+
+.main-features{
+  background: #fff;
+  padding-top: 175px;
+}
+.features-content__mobil{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features-heading{
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+  width: 445px;
+  height: 96px;
+}
+
+.features-text{
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  width: 445px;
+  height: 75px;
+}
+
+.mobil-img{
+  border-radius: 50%;
+}
+
+.features-content__mobil{
+  position: relative;
+  z-index: 1;
+}
+
+.features-img::before{
+  position: absolute;
+  content: "";
+  width: 1078px;
+  height: 445px;
+  background-image: url(../img/about/phone-circle.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 100px);
+}
+
+.features-items{
+  position: relative;
+  z-index: 1;
+}
+
